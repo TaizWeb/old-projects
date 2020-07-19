@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<h1>Create a New Post</h1>
+		<hr/>
+		<form action='/blog/new_handler' method='POST'>
+			<input class='post_title' name='post_title' type='text' placeholder='Post Title...'/>
+			<br/>
+			<textarea class='post_body' name='post_body' placeholder="Post Body..." rows="20" cols="50"></textarea>
+			<br/>
+			<input class='tags' type='text' placeholder='Tags seperated by a ,'/>
+			<br/>
+			<input class='post_submit' name='post_submit' type='submit' value='Post'/>
+		</form>
+	</body>
+</html>

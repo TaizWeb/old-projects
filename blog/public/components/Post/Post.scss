@@ -1,0 +1,68 @@
+@font-face {
+	font-family: arimo;
+	src: url('../../fonts/arimo-regular-lite.ttf');
+}
+
+@font-face {
+	font-family: arimo;
+	src: url('../../fonts/arimo-bold-lite.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: open-sans;
+	src: url('../../fonts/OpenSans-lite.ttf');
+}
+
+@font-face {
+	font-family: open-sans;
+	src: url('../../fonts/OpenSans-Bold-lite.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: open-sans;
+	src: url('../../fonts/OpenSans-Italic-lite.ttf');
+	font-style: italic;
+}
+
+#post {
+	padding: .5em;
+
+	#post-title {
+		margin: 0;
+		font-family: arimo;
+	}
+
+	#post-date {
+		float: right;
+		color: graytext;
+		margin-top: .2em;
+		margin-bottom: 0;
+	}
+
+	#post-content {
+		margin-top: 1em;
+		font-family: open-sans;
+		ul {
+			display: block;
+		}
+	}
+
+	#post-link {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+#image_wrapper {
+	border-radius: 2%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}

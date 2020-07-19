@@ -1,0 +1,34 @@
+// Desktop
+@media (min-width:481px)
+	.show-mobile
+		display none
+	p
+		font-size 1em
+	#container
+		display flex
+		align-items center
+		justify-content center
+		flex-direction column
+	#post-body
+		width 55%
+
+// Mobile
+@media (max-width:480px)
+	// Portrait view
+	.show-desktop
+		display none
+	p
+		font-size 1em
+	.post-preview
+		.post-content
+			font-size 1em
+		#date
+			font-size .9em
+
+@media (max-height:480px)
+	// Landscape view
+	.show-desktop
+		display:none
+	#post-preview
+		margin-top 2.5em
+		margin-left 2.5em

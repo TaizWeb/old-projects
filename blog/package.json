@@ -1,0 +1,47 @@
+{
+  "name": "blog",
+  "version": "1.1.0",
+  "description": "A blog about my various programming misadventures.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TaizWeb",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "css-loader": "^3.5.1",
+    "ejs": "^2.5.2",
+    "enhanced-resolve": "^3.4.1",
+    "express": "^4.14.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^2.0.0",
+    "helmet": "^3.1.0",
+    "marked": "^0.8.2",
+    "node-sass": "^4.5.3",
+    "nodemailer": "^3.0.2",
+    "pg": "^6.1.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^4.0.0",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "webpack-bundle-analyzer": ">=3.3.2"
+  },
+  "engines": {
+    "node": "8.4.0"
+  }
+}

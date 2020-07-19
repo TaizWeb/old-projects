@@ -1,0 +1,24 @@
+@font-face {
+	font-family: arimo;
+	src: url('../../fonts/arimo-regular-lite.ttf');
+}
+
+@font-face {
+	font-family: arimo;
+	src: url('../../fonts/arimo-bold-lite.ttf');
+	font-weight: bold;
+}
+
+#navbar {
+	background-color: #f7534b;
+	text-align: center;
+	padding: 6px 9px 6px 9px;
+	user-select: none;
+
+	span {
+		font-size: 2em;
+		font-weight: bold;
+		font-family: arimo;
+		color: white;
+	}
+}
