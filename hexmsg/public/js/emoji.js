@@ -1,0 +1,4 @@
+const availableEmoji = {
+	"poop": "💩",
+	"thinking": "🤔"
+};

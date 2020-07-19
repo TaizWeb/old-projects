@@ -1,0 +1,8 @@
+{
+	"parser": "babel-eslint",
+	"paths": {
+		"windows": [
+			"C:/Program Files/nodejs/node.exe"
+		]
+	}
+}

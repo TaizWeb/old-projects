@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HEXMSG</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<link rel="stylesheet" type="text/css" href="/css/min/styles.css"/>
+		<script type="text/javascript" src="https://use.fontawesome.com/9ef4e21adc.js"></script>
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="/js/min/scripts.js"></script>
+	</head>
+	<body>
+		<style id="messages_alignment" type="text/css"></style>
+		<div id="header"><span>HEXMSG</span></div>
+		<div id="messages">
+			<div class="message from bot">
+				<p>Hello, and welcome to hexmsg. <br/>To start, please send a message.</p>
+			</div>
+			<div class="message from bot">
+				<p>Bugs? We have plenty. Feel free to report them on our <a href="https://github.com/TaizWeb/hexmsg/issues" target="_blank">issue tracker</a>.</p>
+			</div>
+			<div class='message from bot'>
+				<p>feel free to consider assisting us in our effort to add support for all emoji <a href='https://github.com/TaizWeb/hexmsg/blob/dev/public/js/emoji.js'>here</a>.</p>
+			</div>
+		</div>
+		<div id="input_wrapper">
+			<input id="chat_input" type="text" placeholder="Message"/>
+			<input id="chat_submit" type="submit" name="submit" value="">
+			<label for="chat_submit"><i id="chat_submit_icon" class="fa fa-paper-plane empty"></i></label>
+		</div>
+	</body>
+</html>
